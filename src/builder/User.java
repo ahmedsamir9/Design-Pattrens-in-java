@@ -45,7 +45,7 @@ public class User {
         this.age = age;
     }
     public static class userBuilder implements Userbuilder{
-        User user;
+        private static User user;
 
         public userBuilder() {
             user = new User();
